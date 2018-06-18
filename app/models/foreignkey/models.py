@@ -20,7 +20,7 @@ class Manufacturer(models.Model):
     def __str__(self):
         return self.name
 
-class User(models.Model):
+class ForeignkeyUser(models.Model):
     name = models.CharField(max_length=50)
     instructer = models.ForeignKey(
         'self',
