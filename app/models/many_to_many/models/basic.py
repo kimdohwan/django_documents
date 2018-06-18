@@ -1,5 +1,9 @@
 from django.db import models
 
+__all__ = (
+    'Topping',
+    'Pizza',
+)
 
 # Create your models here.
 class Topping(models.Model):
